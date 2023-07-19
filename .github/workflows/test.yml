@@ -8,7 +8,7 @@ on:
 
 jobs:
   test1:
-    runs-on: ubuntu-lates:
+    runs-on: ubuntu-latest
     steps:
       -
         name: step 1
