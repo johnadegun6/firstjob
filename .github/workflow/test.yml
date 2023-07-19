@@ -10,5 +10,6 @@ jobs:
   test1:
     runs-on: ubuntu-lates:
     steps:
-      name: step 1
-      run: echo "Say hello world. This is our first pipeline"
+      -
+        name: step 1
+        run: echo "Say hello world. This is our first pipeline"
